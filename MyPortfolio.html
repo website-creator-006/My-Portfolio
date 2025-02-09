@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Designer Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -12,6 +12,9 @@
     <header>
         <nav>
             <div class="logo">My Portfolio</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
@@ -22,36 +25,40 @@
     
     <section id="about">
         <h1>About Me</h1>
-        <p>👋 Hi, I'm Ruthra Velan M, an aspiring Artificial Intelligence and Machine Learning Engineer with a passion for web design and development. Currently pursuing my Bachelor of Engineering (B.E.) at PSNA College of Engineering and Technology,Dindigul. I specialize in blending AI with modern web technologies to create innovative and intelligent web solutions.
-
-                💡 My expertise includes:
-                
-                Web Designing with AI
-                HTML, CSS, and JavaScript
-                Machine Learning & Artificial Intelligence
-                I am always eager to learn, explore new technologies, and build projects that make an impact. Let's connect and bring ideas to life! 🚀</p>
-                <img src="photo1.jpg" alt="Image" >
+        <div class="about-container">
+            <p>👋 Hi, I'm <b>Ruthra Velan M</b>, an aspiring AI & ML Engineer passionate about web design and development. Currently pursuing my B.E. at <b>PSNA College of Engineering and Technology, Dindigul</b>.</p>
+            <ul>
+                <li>💡 Web Designing with AI</li>
+                <li>📌 HTML, CSS, JavaScript</li>
+                <li>🤖 Machine Learning & AI</li>
+                <li>🚀 Always exploring new technologies</li>
+            </ul>
+            <img src="photo1.jpg" alt="Profile Image">
+        </div>
     </section>
     
     <section id="portfolio">
         <h1>My Work</h1>
         <div class="portfolio-items">
             <div class="item">
-                <a href="https://courier-service-2425.github.io/PJ-24-Hour-Courier-Service/courier%20service.html">24 hours courier Service</a></div>
+                <a href="https://courier-service-2425.github.io/PJ-24-Hour-Courier-Service/courier%20service.html">
+                    24 Hours Courier Service
+                </a>
+            </div>
         </div>
     </section>
     
     <section id="contact">
         <h1>Contact Me</h1>
-        <p>Name: Ruthra Velan</p>
-        <p>Email-Id: warriorforever006@gmail.com</p>
-        <p>Mobile-No:6381611575</p>
+        <p><strong>Name:</strong> Ruthra Velan</p>
+        <p><strong>Email:</strong> warriorforever006@gmail.com</p>
+        <p><strong>Phone:</strong> 6381611575</p>
         <div class="social-icons">
-            <!-- <a href="#" class="fab fa-facebook"></a> -->
             <a href="https://www.instagram.com/website_creator_006?igsh=bnB6ZmJmbXM0b2Jz" class="fab fa-instagram"></a>
             <a href="https://www.linkedin.com/in/ruthra-velan-m-b3821a275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fab fa-linkedin"></a>
         </div>
     </section>
-    
+
 </body>
 </html>
+
